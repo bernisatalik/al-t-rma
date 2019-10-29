@@ -1,0 +1,7 @@
+import math
+#e'yi bulma
+e=0
+for n in range(0,1000):
+    e+=1/math.factorial(n)
+    
+print (e)
